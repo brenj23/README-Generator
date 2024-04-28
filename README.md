@@ -10,7 +10,8 @@ Enter answers for the questions prompted and a README will be generated.
 Jacob Carver
 
 ## Screenshot
-![Uploading Screenshot 2024-04-27 at 10.26.50 PM.png…]()
+<img width="1470" alt="Screenshot 2024-04-27 at 10 26 50 PM" src="https://github.com/brenj23/README-Generator/assets/154111598/cdc861a1-20fe-4e17-a2fd-1a1f83e2e4c8">
+
 
 
     
