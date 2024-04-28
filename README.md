@@ -1,23 +1,29 @@
 
-    # title
+    # README Generator
     
     ## Description
-    descr placeholder
+    Creates a README off of users input.
     
     ## How to Use
-    how to use placeholder
+    Enter answers for the questions prompted and a README will be generated.
 
     ## Credit
-    tutur, placeholder
+    Jacob Carver
 
     ## Screenshot
-    placeholder url
+    
 
-    ## License
+    
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+© 2024 Bren Broussard
+
 
     ## Questions
-    contact me here: https://broussard.j.bren@gmail.com
+    contact me here: broussard.j.bren@gmail.com
     or find my github at: https://github.com/brenj23
+
     
     
-    # README-Generator

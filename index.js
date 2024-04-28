@@ -2,6 +2,17 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { type } = require('os');
+const { renderLicenseSection } = require('./utils/generateMarkdown');
+
+const licenseName='MIT';
+const year='2024';
+const copyright = 'Bren Broussard';
+
+const licenseSectionContent = renderLicenseSection(licenseName, year, copyright);
+
+// Call the function to generate the license section
+fs.appendFileSync('README.md', licenseSectionContent);
+console.log('License section added to README');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -27,8 +38,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'screenshot',
-        message: 'Enter URL for screenshot of project'
+        name: 'licenseName',
+        message: 'Enter License Name',        
+    },
+    {
+        type: 'input',
+        name: 'licenseYear',
+        message:'Enter Licensing year',
+    },
+    {
+        type: 'input',
+        name: 'licenseCopyright',
+        message: 'Enter license Copyright holder',
     }
 
 ];
@@ -51,14 +72,14 @@ function generateREADME(answers){
     ${answers.credit}
 
     ## Screenshot
-    ${answers.screenshot}
+    
 
-    ## License
+    ${licenseSectionContent}
 
     ## Questions
     contact me here: broussard.j.bren@gmail.com
     or find my github at: https://github.com/brenj23
-    
+
     
     `;
     
