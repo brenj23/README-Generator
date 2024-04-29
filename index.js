@@ -60,25 +60,25 @@ function promptUser() {
 
 function generateREADME(answers){
     const readmeContent = `
-    # ${answers.projectTitle}
+#${answers.projectTitle}
     
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
     
-    ## How to Use
-    ${answers.howToUse}
+## How to Use
+${answers.howToUse}
 
-    ## Credit
-    ${answers.credit}
+## Credit
+${answers.credit}
 
-    ## Screenshot
+## Screenshot
     
 
-    ${licenseSectionContent}
+${licenseSectionContent}
 
-    ## Questions
-    contact me here: broussard.j.bren@gmail.com
-    or find my github at: https://github.com/brenj23
+## Questions
+contact me here: broussard.j.bren@gmail.com
+or find my github at: https://github.com/brenj23
 
     
     `;
