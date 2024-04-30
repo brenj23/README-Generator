@@ -10,7 +10,7 @@ User is prompted with questions and user answers prompts.
 ## Credit
 tutor
 
-    ## Screenshot
+## Screenshot
     
 
 
