@@ -1,19 +1,19 @@
 
-    # README Generator
+# README Generator
     
-    ## Description
-    Creates a README off of users input.
+## Description
+Generates readme off of user input
     
-    ## How to Use
-    Enter answers for the questions prompted and a README will be generated.
+## How to Use
+User is prompted with questions and user answers prompts. 
 
-    ## Credit
-    Jacob Carver
+## Credit
+tutor
 
     ## Screenshot
     
 
-    
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
